@@ -49,15 +49,22 @@ ul {
 /* End Global Rules */
 /* Start Header */
 header {
-  position: absolute;
   width: 100%;
   padding-top: 50px;
 }
+@media (max-width: 375px) {
+  header .container .image img {
+    width: 325px;
+  }
+}
+
 header .container {
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 header .container .image {
   border-top-left-radius: 25px;
@@ -70,12 +77,38 @@ header .container .image img {
 /* End Header */
 /* Start Order */
 .order {
+  width: 100%;
+  padding-top: 0;
+  margin-top: -5px;
 }
 .order .container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  max-width: 420px;
+  background-color: white;
+  padding-top: 15px;
 }
 .order .container h3 {
+  font-weight: 900;
+  font-size: 25px;
 }
 .order .container p {
+  font-size: var(--Font-Size-Paragraph);
+  line-height: 2;
+  padding-right: 37.5px;
+  padding-left: 37.5px;
+}
+@media (max-width: 375px) {
+  .order .container {
+    width: 295px;
+  }
+  .order .container p {
+    padding-right: 13px;
+    padding-left: 13px;
+  }
 }
 /* End Order */
 /* Start Plan */
