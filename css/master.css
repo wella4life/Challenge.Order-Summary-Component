@@ -38,10 +38,18 @@ ul {
   .container {
     width: 100%;
   }
+  body {
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+  }
 }
-@media (max-width: 1440px) {
+@media (min-width: 376px) {
   .container {
     width: 100%;
+  }
+  body {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
   }
 }
 /* End Global Rules */
