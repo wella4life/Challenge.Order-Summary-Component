@@ -1,0 +1,91 @@
+/* Start Variables */
+:root {
+  --Pale-Blue: hsl(225, 100%, 94%);
+  --Bright-Blue: hsl(245, 75%, 52%);
+  --Very-Pale-Blue: hsl(225, 100%, 98%);
+  --Desaturated-Blue: hsl(224, 23%, 55%);
+  --Dark-Blue: hsl(223, 47%, 23%);
+  --Font-Size-Paragraph: 16px;
+}
+/* Start Global Rules */
+-webkit-box-sizing: border-box;
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+  transition: 0.5s;
+}
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: var(--Pale-Blue);
+}
+ul {
+  list-style: none;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+}
+@media (max-width: 375px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (max-width: 1440px) {
+  .container {
+    width: 100%;
+  }
+}
+/* End Global Rules */
+/* Start Header */
+header {
+}
+header .container {
+}
+header .container .image {
+}
+header .container .image img {
+}
+/* End Header */
+/* Start Order */
+.order {
+}
+.order .container {
+}
+.order .container h3 {
+}
+.order .container p {
+}
+/* End Order */
+/* Start Plan */
+.plan {
+}
+.plan .container {
+}
+.plan .container i {
+}
+.plan .container h4 {
+}
+.plan .container p {
+}
+.plan .container a {
+}
+/* End Plan */
+/* Start Pay */
+.pay {
+}
+.pay .container {
+}
+.pay .container button {
+}
+.pay .container a {
+}
+/* End Pay */
