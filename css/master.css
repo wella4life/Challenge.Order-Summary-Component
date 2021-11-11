@@ -180,11 +180,51 @@ header .container .image img {
 /* End Plan */
 /* Start Pay */
 .pay {
+  width: 100%;
+  padding-top: 0;
+  margin-top: -5px;
 }
 .pay .container {
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  text-align: center;
+  max-width: 420px;
+  background-color: white;
+  padding-top: 15px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+@media (max-width: 375px) {
+  .pay .container {
+    max-width: 295px;
+    bottom: 15px;
+  }
 }
 .pay .container button {
+  width: 300px;
+  height: 50px;
+  background-color: var(--Bright-Blue);
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  border-style: hidden;
+  box-shadow: 0 20px 5px 0 var(--Pale-Blue);
+}
+.pay .container button:hover {
+  cursor: pointer;
+  opacity: 70%;
 }
 .pay .container a {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  color: var(--Desaturated-Blue);
+  font-weight: 900;
+}
+.pay .container a:hover {
+  color: var(--Dark-Blue);
 }
 /* End Pay */
