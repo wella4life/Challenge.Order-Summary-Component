@@ -1,2 +1,4 @@
-# Challenge.Order-Summary-Component
- FontEnd Mentor Challenge 1- Order Summary Component
+- [Overview]
+  - [Order Summary Component](#the-challenge)
+  - [img src="images/Finished-Desktop.jpg"](#screenshot)
+  - [https://wella4life.github.io/Challenge.Order-Summary-Component/](#links)
