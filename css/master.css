@@ -22,6 +22,9 @@ html {
 body {
   font-family: "Red Hat Display", sans-serif;
   background-color: var(--Pale-Blue);
+  display: grid;
+  align-items: center;
+  min-height: 100vh;
 }
 ul {
   list-style: none;
