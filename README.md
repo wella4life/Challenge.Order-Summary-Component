@@ -1,4 +1,7 @@
-- [Overview]
+- Overview:
   - [Order Summary Component](#the-challenge)
-  - [img src="images/Finished-Desktop.jpg"](#screenshot)
+  - ![](images/Finished-Desktop.jpg)
   - [https://wella4life.github.io/Challenge.Order-Summary-Component/](#links)
+
+ - Users should be able to:
+   - View the optimal layout for the site depending on their device's screen size
