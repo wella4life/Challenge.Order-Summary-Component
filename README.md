@@ -1,6 +1,6 @@
 - Overview:
-  - [Order Summary Component](#the-challenge)
-  - [https://wella4life.github.io/Challenge_1_Easy/](#links)
+  - [Order Summary Component]
+  - [https://wella4life.github.io/Challenge_1_Easy/]
   - ![](images/Finished-Desktop.jpg)
   - ![](images/Finished-Mobile.jpg)
 
